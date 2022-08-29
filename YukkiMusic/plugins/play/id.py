@@ -18,7 +18,7 @@ async def vambir(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                       "🔮𝐒𝐎𝐔𝐑𝐂𝐄 𝐕𝘼𝙈𝘽𝙄𝙍🔮", url=f"https://t.me/XxvprxX"),
+                       "𝐒𝐎𝐔𝐑𝐂𝐄 ⌁ 𝙲𝙾𝚄𝙳𝚁𝙰⚡", url=f"https://t.me/UUU_C_1"),
                 ],
                 [  
                     InlineKeyboardButton(

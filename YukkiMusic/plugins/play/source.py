@@ -29,19 +29,19 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 )
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://t.me/XxvprxX",
-        caption=f"""[◍ 𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒔𝒐𝒖𝒓𝒄𝒆 𝒗𝒂𝒎𝒃𝒊𝒓 √🖥](https://t.me/XxvprxX)\n\n[◍ 𝒕𝒉𝒆 𝒃𝒆𝒔𝒕 𝒔𝒐𝒖𝒓𝒄𝒆 𝒐𝒏 𝒕𝒆𝒍𝒆𝒈𝒓𝒂𝒎 √🌐](https://t.me/XxvprxX)\n\n[◍ 𝒇𝒐𝒍𝒍𝒐𝒘 𝒕𝒉𝒆 𝒃𝒖𝒕𝒕𝒐𝒏𝒔 𝒃𝒆𝒍𝒐𝒘 √🔮](https://t.me/XxvprxX)\n\n||[◍ ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸فمـبــيرـ͢）⛧ √](https://t.me/XxlllllllllllllllllllllllllllxX)||""",
+        photo=f"https://t.me/UUU_C_1",
+        caption=f"""[◍ 𝒘𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒔𝒐𝒖𝒓𝒄𝒆 ⌁ 𝙲𝙾𝚄𝙳𝚁𝙰 √🖥](https://t.me/UUU_C_1)\n\n[◍ 𝒕𝒉𝒆 𝒃𝒆𝒔𝒕 𝒔𝒐𝒖𝒓𝒄𝒆 𝒐𝒏 𝒕𝒆𝒍𝒆𝒈𝒓𝒂𝒎 √🌐](https://t.me/UUU_C_1)\n\n[◍ 𝒇𝒐𝒍𝒍𝒐𝒘 𝒕𝒉𝒆 𝒃𝒖𝒕𝒕𝒐𝒏𝒔 𝒃𝒆𝒍𝒐𝒘 √🔮](https://t.me/UUU_C_1)\n\n||[◍ ⌁ 𝙲𝙾𝚄𝙳𝚁𝙰 [𝙰𝙻𝙺𝙰𝙱𝙴𝚁] 𝙰𝚈𝙺𝚂𝙼𝙺 √](https://t.me/COUDRA_1)||""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸فمـبــيرـ͢）⛧", url=f"https://t.me/XxlllllllllllllllllllllllllllxX"), 
+                        "⌁ 𝙲𝙾𝚄𝙳𝚁𝙰 [𝙰𝙻𝙺𝙰𝙱𝙴𝚁] 𝙰𝚈𝙺𝚂𝙼𝙺", url=f"https://t.me/COUDRA_1"), 
                 ],[
                     InlineKeyboardButton(
-                        "𝗦𝗢𝗨𝗥𝗖𝗘 𝗩𝗔𝗠𝗕𝗜𝗥⚡", url=f"https://t.me/XxvprxX"),
+                        "𝗦𝗢𝗨𝗥𝗖𝗘 ⌁ 𝙲𝙾𝚄𝙳𝚁𝙰⚡", url=f"https://t.me/UUU_C_1"),
                 ],[
                     InlineKeyboardButton(
-                        "اضغط لاضافه البوت لمجموعتك✅.", url=f"https://t.me/VPllllllbot?startgroup=true"),
+                        "اضغط لاضافه البوت لمجموعتك✅.", url=f"https://t.me/Vi_1bot?startgroup=true"),
                 ],
 
             ]

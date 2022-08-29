@@ -19,18 +19,18 @@ from config.config import START_IMG_URL
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_IMG_URL}",
-        caption=f"◍ [نعم ياقلب بوتك😍](https://t.me/XxvprxX)\n√", 
+        caption=f"◍ [نعم ياقلب بوتك😍](https://t.me/UUU_C_1)\n√", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ᯓ˹ 𝐕𝘼𝙈𝘽𝙄𝙍𖣥⃟⃟⃟⃟⃟🇵🇸فمـبــيرـ͢）⛧", url=f"https://t.me/XxlllllllllllllllllllllllllllxX"), 
+                        "⌁ 𝙲𝙾𝚄𝙳𝚁𝙰 [𝙰𝙻𝙺𝙰𝙱𝙴𝚁] 𝙰𝚈𝙺𝚂𝙼𝙺", url=f"https://t.me/COUDRA_1"), 
                 ],[
                     InlineKeyboardButton(
-                        "𝗦𝗢𝗨𝗥𝗖𝗘 𝗩𝗔𝗠𝗕𝗜𝗥⚡", url=f"https://t.me/XxvprxX"),
+                        "𝗦𝗢𝗨𝗥𝗖𝗘 𝙲𝙾𝚄𝙳𝚁𝙰⚡", url=f"https://t.me/UUU_C_1"),
                 ],[
                     InlineKeyboardButton(
-                        "اضغط لاضافه البوت لمجموعتك✅.", url=f"https://t.me/VPllllllbot?startgroup=true"),
+                        "اضغط لاضافه البوت لمجموعتك✅.", url=f"https://t.me/MU_SIC_COUDRA_BOT?startgroup=true"),
                 ],
             ]
        ),
