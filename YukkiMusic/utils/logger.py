@@ -19,7 +19,7 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Group"
         logger_text = f"""
-**◍ VAMBIR تم التشغيل √**
+**◍ ⌁ 𝙲𝙾𝚄𝙳𝚁𝙰 تم التشغيل √**
 
 **اسم الجروب:** {message.chat.title} [`{message.chat.id}`]
 **اسم المستخدم:** {message.from_user.mention}
