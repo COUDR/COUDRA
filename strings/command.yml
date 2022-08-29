@@ -6,7 +6,7 @@
 
 # Bot Commands
 PING_COMMAND : ["ping","/ping", "بينج"]
-START_COMMAND : ["/start","start"]
+START_COMMAND : ["/start","start","music","/music"]
 HELP_COMMAND : ["help","/help", "الاوامر"]
 SETTINGS_COMMAND : ["settings", "setting","/settings","/setting", "اعدادت", "الاعدادت"]
 RELOAD_COMMAND : ["admincache", "reload","/admincache","/reload", "تحديث"]
@@ -49,9 +49,9 @@ RESTART_COMMAND : ["/restart","ترسيت"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["/addsudo", "رفع_ميوزك"]
-DELSUDO_COMMAND : ["/delsudo","تنزيل_ميوزك"]
-SUDOUSERS_COMMAND : ["/sudolist", "الادمنيه"]
+ADDSUDO_COMMAND : ["/addsudo", "مطور_مرفع"]
+DELSUDO_COMMAND : ["/delsudo", "ت م ث", "تنزيل"]
+SUDOUSERS_COMMAND : ["/sudolist", "الادمنيه","المطور"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["/broadcast","broadcast", "ذيع"]
@@ -89,9 +89,9 @@ UNAUTHORIZE_COMMAND : ["/unauthorize","سماح"]
 AUTHORIZED_COMMAND : ["/authorized","المتبندين"]
 
 #Block Users Command
-BLOCK_COMMAND : ["/block", "حظرميوزك"]
-UNBLOCK_COMMAND : ["/unblock", "الغاء"]
-BLOCKED_COMMAND : ["/blockedusers", "المحظورين"]
+BLOCK_COMMAND : ["/block", "حظر ميوزك"]
+UNBLOCK_COMMAND : ["/unblock", "الغاء حظر ميوزك"]
+BLOCKED_COMMAND : ["/blockedusers", "المحظورين ميوزك"]
 
 #sPEEDTEST
 SPEEDTEST_COMMAND : ["/speedtest","اختبارالسرعه"]
@@ -101,6 +101,6 @@ ACTIVEVC_COMMAND : ["activevoice","النشطه"]
 ACTIVEVIDEO_COMMAND : ["activevideo","نشطه"]
 
 #Gban Commands
-GBAN_COMMAND : ["/gban", "عام"]
-UNGBAN_COMMAND : ["/ungban", "الغي"]
-GBANNED_COMMAND : ["/gbannedusers","العام"]
+GBAN_COMMAND : ["/gban", "حظرعام"]
+UNGBAN_COMMAND : ["/ungban", "الغاء"]
+GBANNED_COMMAND : ["/gbannedusers", "العام"]
