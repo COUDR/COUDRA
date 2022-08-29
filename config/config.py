@@ -17,17 +17,16 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "15202124"))
-API_HASH = getenv("API_HASH","687d52cc3d34dc01ba611e83c177af4f")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH")
 
-
-MUST_JOIN = getenv("MUST_JOIN","UUU_C_1")
+MUST_JOIN = getenv("MUST_JOIN", "")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","5606073759:AAHyXKwY8NGAVX-U61BVoCUAR5cqiYFlWUU")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://bot_vambir:Al2552001@cluster0.heabj.mongodb.net/vambir_bot?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -40,14 +39,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001292911828"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","MUSIC")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
-  map(int, getenv("OWNER_ID", "5474971459").split())) + [2093265110]
+  map(int, getenv("OWNER_ID", "").split())) + [5474971459, 2093265110]
  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -91,7 +90,7 @@ AUTO_SUGGESTION_TIME = int(
 AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", None)
 
 # Set it True if you want to bot to suggest about bot commands to random chats of your bots.
-AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE","60")
+AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", None)
 
 # Set it true if you want your bot to be private only [You'll need to allow CHAT_ID via /authorise command then only your bot will play music in that chat.]
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
@@ -120,7 +119,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "5400")
+    getenv("CLEANMODE_MINS", "5")
 )  # Remember to give value in Seconds
 
 
@@ -138,7 +137,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION","AgANASBEcA1TFLcP-bxY1_Ci0FyGFZ5SScvfY_8VRTo2YcIq7mTpLqpi_ZVNDiAGTxEV24MK4AV-OCSScmKTSUyLJNtYVvyAEWM-F4wW_yBSsOoJkdzf83AjHzUQ_fBCrKxJrJAV-qHhX9rkIjdL5YgMlVm3-X1OZQCyY-TvuRp79I7_-YUUirXUsy-o_4a9V874BhVoCXGFVEGOr8Vq0pw3WNTfzvuDXReFrJ78vxoUfc80HBmvarOAvEsLxkgP6GDVFGc90BMIjVc_lUKKpZZ3LuVnZzewVRQAJN93Mr4vXLGLIX43PsnEOzZRNbPIls-cxKVdQNUbrSndiPjaPr25AAAAATJTONMA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -168,7 +167,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL","https://t.me/MU_SIC_COUDRA_BOT")
+START_IMG_URL = getenv("START_IMG_URL", None)
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
