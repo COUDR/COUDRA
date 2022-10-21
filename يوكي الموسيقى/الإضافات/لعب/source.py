@@ -38,7 +38,7 @@ async def khalid(client: Client, message: Message):
                         "⌁ 𝙲𝙾𝚄𝙳𝚁𝙰 [𝙰𝙻𝙺𝙰𝙱𝙴𝚁] 𝙰𝚈𝙺𝚂𝙼𝙺", url=f"https://t.me/COUDRA_1"), 
                 ],[
                     InlineKeyboardButton(
-                        "𝗦𝗢𝗨𝗥𝗖𝗘 ⌁ 𝙲𝙾𝚄𝙳𝚁𝙰⚡", url=f"https://t.me/UUU_C_1"),
+                        "𝑺𝒐𝑼𝒓𝑪𝒆 𝑹𝒐𝑻𝒂𝑵𝒂", url=f"https://t.me/UUU_C_1"),
                 ],[
                     InlineKeyboardButton(
                         "اضغط لاضافه البوت لمجموعتك✅.", url=f"https://t.me/Vi_1bot?startgroup=true"),
