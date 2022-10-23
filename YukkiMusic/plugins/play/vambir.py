@@ -18,12 +18,12 @@ async def khalid(client: Client, message: Message):
             [
                 [
                 InlineKeyboardButton(
-                    "🔮𝐒𝐎𝐔𝐑𝐂𝐄 ⌁ 𝙲𝙾𝚄𝙳𝚁𝙰🔮", url=f"https://t.me/UUU_C_1"
+                    "𝑺𝒐𝑼𝒓𝑪𝒆 𝑹𝒐𝑻𝒂𝑵𝒂", url=f"https://t.me/UUU_C_1"
                 ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "⌁ 𝙲𝙾𝚄𝙳𝚁𝙰 [𝙰𝙻𝙺𝙰𝙱𝙴𝚁] 𝙰𝚈𝙺𝚂𝙼𝙺", url=f"https://t.me/COUDRA_1"),
+                        "𝘿𝙚𝙑 𝘾𝙤𝙪𝘿𝙧𝙖", url=f"https://t.me/COUDRA_1"),
                 ],
             ]
         ),
