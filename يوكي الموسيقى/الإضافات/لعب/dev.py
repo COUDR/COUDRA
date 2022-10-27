@@ -13,7 +13,7 @@ from config import BANNED_USERS, MUSIC_BOT_NAME
 
 import re
 import sys
-from os import getenv
+من  استيراد نظام التشغيل  getenv 
 
 from dotenv import load_dotenv
 from pyrogram import filters
@@ -38,8 +38,8 @@ async def khalid(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{IMG_DEV1}",
        caption=f"""❲#VAMBIR❳
-🐲━━━─⊶⛧•𝑽𝑨𝑴𝑩𝑰𝑹•⛧⊷─━━━🐲
-👨🏼‍💻 يوزر المطور : @{OWNER}""",
+ꔹ━━━━━ꔹ𝑺𝒐𝑼𝒓𝑪𝒆 𝑹𝒐𝑻𝒂𝑵𝒂ꔹ━━━━━ꔹ
+👨🏼‍💻 يوزر المطور: @ { المالك } "" " ،
         reply_markup=InlineKeyboardMarkup(
             [
                 [
