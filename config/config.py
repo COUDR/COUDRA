@@ -17,10 +17,10 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "19032371"))
+API_HASH = getenv("API_HASH"d8e7372383c9544b4af01a226e366b83")
 
-MUST_JOIN = getenv("MUST_JOIN", "")
+MUST_JOIN = getenv("MUST_JOIN", "5713561059:AAG3LcU2HafToo5mHUT6tH-oX4ZyxkkBO_o")
 
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -39,14 +39,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002070633841"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME"MUSIC COUDRA")
 
 # Your User ID.
 OWNER_ID = list(
-  map(int, getenv("OWNER_ID", "").split())) + [5474971459, 2093265110]
+  map(int, getenv("OWNER_ID", "5474971459").split())) + [5474971459, 2093265110]
  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -58,7 +58,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/VamBIR/endd",
+    "https://github.com/COUDR/COUDRA/edit",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -67,10 +67,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL","https://t.me/UUU_C_1")
+    "SUPPORT_CHANNEL","https://t.me/UXUXUX_1")
   # Example:- https://t.me/TheYukki
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP","https://t.me/COUDRA1")
+    "SUPPORT_GROUP","https://t.me/HB_SW")
  # Example:- https://t.me/YukkiSupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -137,7 +137,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION2", "BAF6L6oAPDd9Qwgx_X7w21wOr7jxve7n-zPljj3pV_iEekv4fGvbj0iCuojl4GhKkjD3RDUS_u4zoxSwDZDVZxTRBCVJVYIHPH8vh3mXp9wL-RbdGXMr_L5s5Zt68jjmb5kBVel4YMbYhiVnSW_U6lH02OIXMF7gspm4SAaFAUkJ8H6ZGbjSEkbrCO1iMVXCquLpV7kDwdEHlBIGP9m5hVdC3YCd9Z-fIeeif41wDriGM_KagKOptD7CJ7_uxdE1F0l3nwesKOfuYYLSmyKXe2YYd0ws_pssn2qe4FfC_oQLKfisD2RmhMoIJmDAopxHZTv5SyJBH3pSn1Zb5P2Q01HW35JsrgAAAAFBtl7iAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -167,7 +167,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/1c8686cebb7c370cb24ac.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
