@@ -1,7 +1,7 @@
 {
-    "name": "VAMBIR/MUSIC",
+    "name": "COUDRA/MUSIC",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/e70a5c7bbce858cee91ac.jpg",
+    "logo": "https://telegra.ph/file/d313f089ede761bbad70a.jpg",
     "keywords": [
     "python3",
     "telegram",
